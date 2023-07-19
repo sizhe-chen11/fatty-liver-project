@@ -1,0 +1,165 @@
+Column: t2_Albumin
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0006212466349140609
+
+Column: t1_Eosinophil
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.4176848208738869
+
+Column: t1_height_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0012424932698281218
+
+Column: t1_weight_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.00031062331745703044
+
+Column: t1_MCV
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0005177055290950507
+
+Column: t1_SP_Gravity
+Non-numeric Values:
+['>=1.030' '<=1.005' 'NONE']
+Non-numeric Ratio: 0.007247877407330711
+Null Ratio: 0.011803686063367156
+
+Column: t1_systolic_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0006212466349140609
+
+Column: t1_diastolic_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.000724787740733071
+
+Column: t1_Hematocrit
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0005177055290950507
+
+Column: t1_WBCb
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0005177055290950507
+
+Column: t1_Total_Bilirubin
+Non-numeric Values:
+['NONE' '<0.15']
+Non-numeric Ratio: 0.00031062331745703044
+Null Ratio: 0.0002070822116380203
+
+Column: t1_Total_Protein
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.00031062331745703044
+
+Column: t1_Platelets
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0005177055290950507
+
+Column: t1_Albumin
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.00031062331745703044
+
+Column: t2_Eosinophil
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.35141851314972045
+
+Column: t2_height_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.00010354110581901015
+
+Column: t2_weight_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.00010354110581901015
+
+Column: t2_MCV
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0009318699523710913
+
+Column: t2_SP_Gravity
+Non-numeric Values:
+['<=1.005' '>=1.030' 'NONE']
+Non-numeric Ratio: 0.004866431973493477
+Null Ratio: 0.010664733899358046
+
+Column: t2_systolic_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0004141644232760406
+
+Column: t2_diastolic_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0005177055290950507
+
+Column: t2_Hematocrit
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0009318699523710913
+
+Column: t2_WBCb
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0009318699523710913
+
+Column: t2_Total_Bilirubin
+Non-numeric Values:
+['<0.15' 'NONE']
+Non-numeric Ratio: 0.0009318699523710913
+Null Ratio: 0.0005177055290950507
+
+Column: t2_Total_Protein
+Non-numeric Values:
+['<    4.0' '<4.0']
+Non-numeric Ratio: 0.0004141644232760406
+Null Ratio: 0.010147028370262995
+
+Column: t2_Platelets
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0009318699523710913
+
+Column: t2_Albumin
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0006212466349140609
+
+non_numerical values 的值大于1的字段有：['t1_SP_Gravity', 't1_Total_Bilirubin', 't2_SP_Gravity', 't2_Total_Bilirubin', 't2_Total_Protein']
+Non-numeric Ratio 大于0.1的字段有：[]
+Null Ratio 大于0.1的字段有：['t1_Eosinophil', 't2_Eosinophil']
