@@ -1,0 +1,279 @@
+Column: age
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0
+
+Column: waist_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.006218796531488132
+
+Column: Glucose_AC_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0013576245949023385
+
+Column: Triglyceride_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0010510642025050364
+
+Column: HDL_C_y
+Non-numeric Values:
+['<      3']
+Non-numeric Ratio: 4.379434177104318e-05
+Null Ratio: 0.00096347551896295
+
+Column: AST_GOT
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0007445038101077341
+
+Column: ALT_GPT
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0010510642025050364
+
+Column: gamgt
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.025663484277831303
+
+Column: Insulin
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0008758868354208637
+
+Column: T_Cholesterol
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.00096347551896295
+
+Column: LDL_C_direct
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0015328019619865114
+
+Column: VLDL_C
+Non-numeric Values:
+['TG>400']
+Non-numeric Ratio: 4.379434177104318e-05
+Null Ratio: 0.0011386528860471228
+
+Column: Non_HDL_C
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.005518087063151441
+
+Column: T_CHOL_HDL_C
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0011386528860471228
+
+Column: LDL_C_HDL_C
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.001182447227818166
+
+Column: HS_CRP
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.09599719716212665
+
+Column: Hb_A1c
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.006525356923885434
+
+Column: Uric_Acid
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0007007094683366909
+
+Column: HOMA_IR
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.00468599456950162
+
+Column: Adiponectin
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.7144608916527985
+
+Column: Leptin
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.6913812735394587
+
+Column: TotalVitaminD
+Non-numeric Values:
+['>4000.0' '<3.0' '<3.00' '>70']
+Non-numeric Ratio: 0.0002627660506262591
+Null Ratio: 0.20491372514671105
+
+Column: BMI
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0016641849872996409
+
+Column: hyper
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0
+
+Column: fg
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0
+
+Column: HDL
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0
+
+Column: trig
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0
+
+Column: sarcf
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.7181396163615661
+
+Column: ms2
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0
+
+Column: MNA
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.7195848296400105
+
+Column: AUDIT
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.16720679688184287
+
+Column: HBV_
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.24419724971533677
+
+Column: HCV_
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.2774809494613296
+
+Column: Eosinophil
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.29180169922046073
+
+Column: height_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0010510642025050364
+
+Column: weight_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0006131207847946045
+
+Column: MCV
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0014014189366733818
+
+Column: SP_Gravity
+Non-numeric Values:
+['>=1.030' '<=1.005' 'NONE']
+Non-numeric Ratio: 0.006306385215030218
+Null Ratio: 0.012787947797144608
+
+Column: systolic_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.002846632215117807
+
+Column: diastolic_y
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0029780152404309365
+
+Column: Total_Bilirubin
+Non-numeric Values:
+['<0.15' 'NONE' '< 0.1']
+Non-numeric Ratio: 0.0010510642025050364
+Null Ratio: 0.0007007094683366909
+
+Column: Total_Protein
+Non-numeric Values:
+['<4.0' '<    4.0' '< 4.0']
+Non-numeric Ratio: 0.007226066392222125
+Null Ratio: 0.02080231234124551
+
+Column: Platelets
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0014014189366733818
+
+Column: Albumin
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0007882981518787772
+
+Column: Hematocrit
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0014014189366733818
+
+Column: WBCb
+Non-numeric Values:
+[]
+Non-numeric Ratio: 0.0
+Null Ratio: 0.0014014189366733818
+
+non_numerical values 的值大于1的字段有：['TotalVitaminD', 'SP_Gravity', 'Total_Bilirubin', 'Total_Protein']
+Non-numeric Ratio 大于0.1的字段有：[]
+Null Ratio 大于0.1的字段有：['Adiponectin', 'Leptin', 'TotalVitaminD', 'sarcf', 'MNA', 'AUDIT', 'HBV_', 'HCV_', 'Eosinophil']

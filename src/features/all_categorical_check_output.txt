@@ -1,0 +1,66 @@
+Column: w
+Unique Values:
+<IntegerArray>
+[0, 1]
+Length: 2, dtype: Int64
+
+Column: smoke
+Unique Values:
+<IntegerArray>
+[<NA>, 1, 0]
+Length: 3, dtype: Int64
+
+Column: smoke_q
+Unique Values:
+<IntegerArray>
+[<NA>, 0, 2, 1, 11, 3]
+Length: 6, dtype: Int64
+
+Column: coffee
+Unique Values:
+<IntegerArray>
+[<NA>, 1, 0, 2]
+Length: 4, dtype: Int64
+
+Column: betel
+Unique Values:
+<IntegerArray>
+[<NA>, 0, 1, 20]
+Length: 4, dtype: Int64
+
+Column: DM_determine
+Unique Values:
+[1 0]
+
+Column: bloodtype
+Unique Values:
+[nan  1.  3.  2.  4.  5.  0.]
+
+Column: bloodtype_rh
+Unique Values:
+[nan  3.  0.  1.  2. 33.  5.]
+
+Column: Leukocyte
+Unique Values:
+['2+' '3+' '1+' '陰性' nan 'Trace' 'Negative' 'NONE' 'NEGATIVE']
+
+Column: Bilirubin
+Unique Values:
+['陰性' nan '1+ (0.5)' 'Negative' 'NEGATIVE' '2+ (2.0)' 'NONE' '3+ (4.0)']
+
+Column: Glucose
+Unique Values:
+['陰性' '4+ (2000)' 'Trace (50)' '3+ (500)' nan '2+ (250)' '1+ (100)'
+ '3+ (1000)' 'Trace(100)' '2+ (500)' '1+ (250)' 'Negative' 'NONE'
+ '1+(250)' '3+(1000)' 'NEGATIVE']
+
+Column: hypertension
+Unique Values:
+[nan  0.  1.]
+
+Column: sex
+Unique Values:
+<IntegerArray>
+[0, 1]
+Length: 2, dtype: Int64
+

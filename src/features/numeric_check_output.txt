@@ -1,9 +1,3 @@
-Column: t2_Albumin
-Non-numeric Values:
-[]
-Non-numeric Ratio: 0.0
-Null Ratio: 0.0006212466349140609
-
 Column: t1_Eosinophil
 Non-numeric Values:
 []

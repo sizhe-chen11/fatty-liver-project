@@ -176,3 +176,40 @@ def generate_column_names(prefix, column_names):
     for p in prefix:
         new_column_names.extend([p + col for col in column_names])
     return new_column_names
+
+
+def analyze_numeric_column(df, column_name, output_file):
+    non_numeric_values = df[column_name][~df[column_name].apply(lambda x: isinstance(x, (int, float)))]
+    unique_non_numeric_values = non_numeric_values.unique()
+    non_numeric_ratio = len(non_numeric_values) / len(df[column_name])
+    null_ratio = df[column_name].isnull().mean()
+    
+    output = f"Column: {column_name}\n"
+    output += "Non-numeric Values:\n" + str(unique_non_numeric_values) + "\n"
+    output += "Non-numeric Ratio: " + str(non_numeric_ratio) + "\n"
+    output += "Null Ratio: " + str(null_ratio) + "\n"
+    output += "\n"
+    
+    with open(output_file, "a") as file:
+        file.write(output)
+
+def save_categorical_unique_values(df, categorical_features, output_file):
+    with open(output_file, "w") as file:
+        for feature in categorical_features:
+            unique_values = df[feature].unique()
+            output = f"Column: {feature}\n"
+            output += "Unique Values:\n" + str(unique_values) + "\n\n"
+            file.write(output)
+            
+## Additional Adding NFS and Fibrosis-4 score
+def calculate_FIB_4_Score(row):
+    return (row['age'] * row['AST_GOT']) / (row['Platelets'] * np.sqrt(row['ALT_GPT']))
+
+def calculate_NFS(row):
+    return -1.675 + (0.037 * row['age']) + (0.094 * row['BMI']) + (1.13 * row['DM_determine']) + (0.99 * np.log10(row['AST_GOT'] / row['ALT_GPT'])) + (0.013 * row['Platelets']) - (0.66 * row['Albumin'])
+
+def select_columns(df, prefix, additional_column=None):
+    selected_columns = [col for col in df.columns if col.startswith(prefix)]
+    if additional_column is not None:
+        selected_columns.append(additional_column)
+    return df[selected_columns]
